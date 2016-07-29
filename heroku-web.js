@@ -7,4 +7,5 @@ var fs = require('fs');
 var accessLogStream = fs.createWriteStream(__dirname + '/access.log', {flags: 'a'})
 app.use(morgan('combined', {stream: accessLogStream}));
 app.use(gzippo.staticGzip("" + __dirname + "/dist"));
+
 app.listen(process.env.PORT || 5000);
