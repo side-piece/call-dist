@@ -29,3 +29,8 @@
 ::1 - - [30/Jul/2016:05:06:44 +0000] "GET /assets/images/angular.png HTTP/1.1" 200 13522 "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
 ::1 - - [30/Jul/2016:05:06:44 +0000] "GET /assets/images/protractor.png HTTP/1.1" 200 10186 "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
 ::1 - - [30/Jul/2016:05:06:44 +0000] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028 "http://localhost:5000/styles/vendor-c8b0bd4b96.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+::1 - - [30/Jul/2016:05:23:09 +0000] "GET /maps/scripts/vendor-7271e99093.js.map HTTP/1.1" 404 50 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+::1 - - [30/Jul/2016:05:23:09 +0000] "GET /maps/scripts/app-795fc97a5f.js.map HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+::1 - - [30/Jul/2016:05:24:20 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+::1 - - [30/Jul/2016:05:24:23 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+::1 - - [30/Jul/2016:05:24:24 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
