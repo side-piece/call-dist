@@ -25,8 +25,15 @@
         .then(getContributorsComplete)
         .catch(getContributorsFailed);
 
-      function getContributorsComplete(response) {
-        return response.data;
+      function getContributorsComplete() {
+        var list = [
+          {"login": "Doug"},
+          {"login": "Troy"},
+          {"login": "Colton"},
+          {"login": "Dan"},
+          {"login": "Robison"}
+        ]
+        return list;
       }
 
       function getContributorsFailed(error) {
