@@ -93,4 +93,24 @@ gulp.task('clean', function () {
   return $.del([path.join(conf.paths.dist, '/'), path.join(conf.paths.tmp, '/')]);
 });
 
+gulp.task('minify-css', function () {
+  gulp.src(['src/**/*.css', '!/bower_components/**'])
+    .pipe(gulp.dest('dist/'));
+});
+gulp.task('minify-js', function () {
+  gulp.src(['src/**/*.js', '!src/bower_components/**'])
+    .pipe(gulp.dest('dist/'));
+});
+gulp.task('copy-bower-components', function () {
+  gulp.src('bower_components/**')
+    .pipe(gulp.dest('dist/bower_components'));
+});
+gulp.task('copy-html-files', function () {
+  gulp.src('src/**/*.html')
+    .pipe(gulp.dest('dist/'));
+});
+
+gulp.task('copy',['minify-css', 'minify-js', 'copy-bower-components', 'copy-html-files']);
+
+
 gulp.task('build', ['html', 'fonts', 'other']);
