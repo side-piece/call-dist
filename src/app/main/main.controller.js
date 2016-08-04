@@ -17,16 +17,18 @@
 		};
 
 		vm.submitNumber = function () {
+
 			var answerer = {
 					"availabilitity": false,
 					"phoneNumber": vm.phone
 			}
+			$log.debug('posting this: ', answerer);
 			$http({
 				method: 'POST',
 				url: 'https://call-distributor-dev.firebaseio.com/answerers.json',
 				data: answerer
 			}).then(function successCallback(response) {
-				$log.debug(response);
+				$log.debug(response.data);
 
 			}, function errorCallback(response) {
 				$log.debug(response);
