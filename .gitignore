@@ -1,4 +1,5 @@
-
+access.log
+dist/
 coverage/
 .sass-cache/
 .idea/
