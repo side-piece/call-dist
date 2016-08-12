@@ -1,0 +1,14 @@
+{
+  "name": "firebase-alphaqueuejs",
+  "homepage": "https://github.com/troylelandshields/firebase-alphaqueuejs",
+  "_release": "36c7b3ad71",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "36c7b3ad71ca1f5d84fddb857c177ad0b88f67bb"
+  },
+  "_source": "https://github.com/troylelandshields/firebase-alphaqueuejs.git",
+  "_target": "*",
+  "_originalSource": "firebase-alphaqueuejs",
+  "_direct": true
+}
